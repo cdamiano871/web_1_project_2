@@ -1,6 +1,21 @@
 
-header, main {
+nav, main {
     background-image: url('assets/textures/fabric_plaid.png');
+}
+
+nav, nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 footer {
