@@ -1,17 +1,28 @@
 
 nav, main {
     background-image: url('assets/textures/fabric_plaid.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-nav, nav div {
+main {
+    float: right;
+}
+
+section {
+    padding: 25px;
+}
+
+nav, nav div, section {
     display: flex;
     justify-content: space-between;
 }
 
-img {
-    
+span {
+    display: flex;
+    flex-direction: column;
 }
-
 .logo {
     width: 30px;
     height: 30px;
@@ -20,4 +31,7 @@ img {
 
 footer {
     background-image: url('assets/textures/az_subtle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
